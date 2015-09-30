@@ -9,4 +9,4 @@ RUN echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
 RUN apt-get -qq update
 RUN apt-get -qqy install pdf2htmlex
 
-CMD ["pdf2htmlEX']
+CMD ["pdf2htmlEX"]
