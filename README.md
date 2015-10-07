@@ -7,7 +7,7 @@ Suppose you have a PDF file ~/pdf/test.pdf, simply running
 
     docker run -ti --rm -v ~/pdf:/pdf bwits/pdf2htmlex pdf2htmlEX --zoom 1.3 test.pdf
 
-would produce a single HTML file test.html in `~/pdf` directory.
+would produce a single HTML file `test.html` in `~/pdf` directory.
 
 ## run the docker container as local command
 
